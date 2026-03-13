@@ -15,7 +15,7 @@ with DAG(
         task_id = "register2_t1",
         python_callable=regist2,
         op_args=['choisunghoon','man','kr','kyenggi']
-        op_kwargs=['email':'select77@naver.com','phone':'010-5069-0901']
+        op_kwargs={'email':'select77@naver.com','phone':'010-5069-0901'}
     )
 
     register2_t1    
